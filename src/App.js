@@ -56,7 +56,7 @@ const App = () => {
           >
             {todo.text}
             </h2>
-            <span onClick={() => handleRemove(todo.text)}>X</span>
+            <span onClick={() => handleRemove(todo)}>X</span>
             {!todo.completed && (
               <span onClick={() => handleUnderline(index)}>Completed</span>
             )}
